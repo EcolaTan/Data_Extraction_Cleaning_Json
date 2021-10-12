@@ -1,7 +1,7 @@
 import json
-file_path = 'DataCleaning./EnrollmentSheet./student-enrollment-data.json'
-output_path = 'DataCleaning./EnrollmentSheet./courses-output.json'
-output_path2 = 'DataCleaning./EnrollmentSheet./class-lists.json'
+file_path = 'EnrollmentSheet./student-enrollment-data.json'
+output_path = 'EnrollmentSheet./courses-output.json'
+output_path2 = 'EnrollmentSheet./class-lists.json'
 
 with open(file_path, 'r') as f:
     student_data = json.load(f)
