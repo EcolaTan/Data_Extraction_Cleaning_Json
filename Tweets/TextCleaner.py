@@ -1,7 +1,7 @@
 import json
 
-tweets_file = 'DataCleaning./Tweets./Text.json'
-output_path = 'DataCleaning./Tweets./wordcount.csv'
+tweets_file = 'Tweets./Text.json'
+output_path = 'Tweets./wordcount.csv'
 
 words_dict = {}
 remove_chars = "&$@[].,\'#()-\\\"!?’_"
